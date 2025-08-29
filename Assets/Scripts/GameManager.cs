@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
             userData = JsonUtility.FromJson<UserData>(json);
         }
         else
-            userData = new UserData("a",1,1);
+            userData = new UserData("È²»ó¿í",50000,100000);
     }
     
 }
